@@ -16,6 +16,7 @@ else {
             //close the navigation
             if (window.innerWidth <= 600) {
                 console.log("closing navigation");
+                trigger.src = "PROJECT 2 /img/list.svg";
                 // document.getElementById("navigation-list").style.opacity = "0";
                 // document.getElementById("navigation-list").style.height = "0";
                 document.getElementById("navigation-list").style.animation = "up 1s 1";
@@ -26,6 +27,7 @@ else {
             //open the navigation
             if (window.innerWidth <= 600) {
                 console.log("opening navigation");
+                trigger.src = "PROJECT 2 /img/x-lg.svg";
                 // document.getElementById("navigation-list").style.height = navigation_height_mobile;
                 // document.getElementById("navigation-list").style.opacity = "1";
                 document.getElementById("navigation-list").style.animation = "down 1s 1 forwards";
@@ -46,9 +48,11 @@ window.addEventListener("resize", () => {
     }
     else {
         if (previous_width <= 600) {
+
             //switching from mobile to desktop
             IS_OPENED = false;
             document.getElementById("navigation-list").style.animation = "up .5s 1";
+            trigger.src = "PROJECT 2 /img/list.svg";
         }
         document.getElementById("navigation-list").style.height = navigation_height_desktop;
         document.getElementById("navigation-list").style.opacity = "1";
