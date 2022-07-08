@@ -100,7 +100,7 @@ html {
 #home::before {
     content: "";
     position: absolute;
-    background: url('/img/bg.jpg') no-repeat center center/cover;
+    background: url('/PROJECT 2 /img/bg.jpg') no-repeat center center/cover;
     height: 100%;
     top: 0px;
     left: 0px;
