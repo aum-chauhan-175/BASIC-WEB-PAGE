@@ -53,6 +53,12 @@ html {
     height: 34px;
 }
 
+#trigger {
+    display: none;
+    filter: invert();
+    width: 40px;
+}
+
 /* List Style */
 
 #navbar ul {
@@ -115,7 +121,7 @@ html {
 
 }
 
-.tag{
+.tag {
     text-align: center;
     font-size: 1.2rem;
     margin-left: 10%;
@@ -181,10 +187,11 @@ html {
 
 
 #events {
-   
+
     width: 100%;
     height: 100%;
 }
+
 .sec {
     text-align: center;
     padding: 15px;
@@ -322,6 +329,7 @@ textarea {
         /* margin-top: 10%; */
         padding-top: 20%;
     }
+
     #navbar {
         flex-direction: column;
         position: fixed;
@@ -337,7 +345,7 @@ textarea {
         margin: 0px;
     }
 
-    .intro{
+    .intro {
         padding-top: 10%;
     }
 
